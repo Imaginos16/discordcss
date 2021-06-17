@@ -1,0 +1,88 @@
+
+:root {
+	--background-primary: #1b1302;
+	--background-secondary: #1b1302;
+	--background-tertiary: #362f14;
+	--background-floating: #362f14;
+	--text-muted:#494226;
+	--interactive-muted:#665c36;
+	--scrollbar-auto-thumb:#485502;
+	--scrollbar-auto-track:#1b1302;
+	--scrollbar-thin-thumb:#485502;
+	--background-modifier-accent:#485502;
+}
+
+@font-face {
+	font-family: Condense;
+	src:local("Tw Cen MT Condensed Extra Bold");
+}
+
+/*
+@font-face {
+	font-family: Earth;
+	font-size-adjust: 20px;
+	src:local("Earth's Mightiest Bold");
+}*/
+
+* { 
+	font-family: Condense !important;
+}
+
+.scroller-2LSbBU {
+	background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8) ), url("https://cdn.discordapp.com/attachments/699846518542172190/854601391271575552/Poster_Yellow.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	/*margin-bottom: -60px; */
+}
+
+.username-1A8OIy{
+	/*font-family: Earth !important;*/
+	-webkit-text-stroke: 0.1px rgb(145, 133, 133);
+}
+
+.timestamp-3ZCmNB{
+	color:white;
+}
+
+.form-2fGMdU::before {
+	opacity: 0;
+}
+
+.form-2fGMdU {
+	background-image: conic-gradient( #0D0904 30%, #1C150A 70%);
+}
+
+.timestamp-3ZCmNB{
+	color:rgb(201, 201, 201) !important;
+}
+
+.scrollableContainer-2NUZem {
+	background-color:#0A0A0A;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #afafaf;
+	border-radius: 0%;
+}
+
+.container-3baos1{
+	background-color: #0A0A0A;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #afafaf;
+}
+
+.avatar-1BDn8e{
+	display: block;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background: url(https://cdn.discordapp.com/attachments/590280000977240105/854854746505216020/Untitled.png) no-repeat;
+	width: 40px; /* Width of new image */
+	height: 40px; /* Height of new image */
+	padding-left: 40px; /* Equal to width of new image */
+	border-radius: 0%;
+}
+
+.peopleColumn-29fq28{
+	background-color: #1b1302;
+}
