@@ -81,25 +81,10 @@
   display: block;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background: url("https://cdn.discordapp.com/attachments/590280000977240105/855256471080009748/Search.png"), no-repeat;
+  background: url("https://raw.githubusercontent.com/tralezab/discordcss/master/themes/InformationSuperhighway/Gooballs/Search.png"), no-repeat;
   width: 40px;
   height: 40px;
   padding-left: 40px;
-  border-radius: 0%;
-}
-
-[src*="https://cdn.discordapp.com/avatars/3"][src$="?size=128"] {
-  display: block;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  background: url("https://cdn.discordapp.com/attachments/590280000977240105/855256471080009748/Search.png"), no-repeat;
-  /* returns a URL based on what the color of the username is */
-  width: 40px;
-  /* Width of new image */
-  height: 40px;
-  /* Height of new image */
-  padding-left: 40px;
-  /* Equal to width of new image */
   border-radius: 0%;
 }
 
@@ -107,7 +92,7 @@
   display: block;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background: url("https://cdn.discordapp.com/attachments/590280000977240105/854854746505216020/Untitled.png"), no-repeat;
+  background: url("https://raw.githubusercontent.com/tralezab/discordcss/master/themes/InformationSuperhighway/Gooballs/Generic1.png"), no-repeat;
   /* returns a URL based on what the color of the username is */
   width: 40px;
   /* Width of new image */
@@ -122,7 +107,82 @@
   display: block;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background: url("https://cdn.discordapp.com/attachments/590280000977240105/855254472224538634/generic2.png"), no-repeat;
+  background: url("https://raw.githubusercontent.com/tralezab/discordcss/master/themes/InformationSuperhighway/Gooballs/Generic2.png"), no-repeat;
+  /* returns a URL based on what the color of the username is */
+  width: 40px;
+  /* Width of new image */
+  height: 40px;
+  /* Height of new image */
+  padding-left: 40px;
+  /* Equal to width of new image */
+  border-radius: 0%;
+}
+
+[src*="https://cdn.discordapp.com/avatars/26"][src$="?size=128"] {
+  display: block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: url("https://raw.githubusercontent.com/tralezab/discordcss/master/themes/InformationSuperhighway/Gooballs/Water.png"), no-repeat;
+  /* returns a URL based on what the color of the username is */
+  width: 40px;
+  /* Width of new image */
+  height: 40px;
+  /* Height of new image */
+  padding-left: 40px;
+  /* Equal to width of new image */
+  border-radius: 0%;
+}
+
+[src*="https://cdn.discordapp.com/avatars/27"][src$="?size=128"] {
+  display: block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: url("https://raw.githubusercontent.com/tralezab/discordcss/master/themes/InformationSuperhighway/Gooballs/Water.png"), no-repeat;
+  /* returns a URL based on what the color of the username is */
+  width: 40px;
+  /* Width of new image */
+  height: 40px;
+  /* Height of new image */
+  padding-left: 40px;
+  /* Equal to width of new image */
+  border-radius: 0%;
+}
+
+[src*="https://cdn.discordapp.com/avatars/28"][src$="?size=128"] {
+  display: block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: url("https://raw.githubusercontent.com/tralezab/discordcss/master/themes/InformationSuperhighway/Gooballs/Water.png"), no-repeat;
+  /* returns a URL based on what the color of the username is */
+  width: 40px;
+  /* Width of new image */
+  height: 40px;
+  /* Height of new image */
+  padding-left: 40px;
+  /* Equal to width of new image */
+  border-radius: 0%;
+}
+
+[src*="https://cdn.discordapp.com/avatars/29"][src$="?size=128"] {
+  display: block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: url("https://raw.githubusercontent.com/tralezab/discordcss/master/themes/InformationSuperhighway/Gooballs/Water.png"), no-repeat;
+  /* returns a URL based on what the color of the username is */
+  width: 40px;
+  /* Width of new image */
+  height: 40px;
+  /* Height of new image */
+  padding-left: 40px;
+  /* Equal to width of new image */
+  border-radius: 0%;
+}
+
+[src*="https://cdn.discordapp.com/avatars/3"][src$="?size=128"] {
+  display: block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: url("https://raw.githubusercontent.com/tralezab/discordcss/master/themes/InformationSuperhighway/Gooballs/Search.png"), no-repeat;
   /* returns a URL based on what the color of the username is */
   width: 40px;
   /* Width of new image */
@@ -137,7 +197,7 @@
   display: block;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background: url("https://cdn.discordapp.com/attachments/590280000977240105/855234699156914216/Water.png"), no-repeat;
+  background: url("https://raw.githubusercontent.com/tralezab/discordcss/master/themes/InformationSuperhighway/Gooballs/Water.png"), no-repeat;
   /* returns a URL based on what the color of the username is */
   width: 40px;
   /* Width of new image */
@@ -152,7 +212,7 @@
   display: block;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background: url("https://cdn.discordapp.com/attachments/622200209015046220/855252003750674472/Digital.png"), no-repeat;
+  background: url("https://raw.githubusercontent.com/tralezab/discordcss/master/themes/InformationSuperhighway/Gooballs/Digital.png"), no-repeat;
   /* returns a URL based on what the color of the username is */
   width: 40px;
   /* Width of new image */
