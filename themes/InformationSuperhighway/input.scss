@@ -1,4 +1,6 @@
 
+@use './avatar_data.scss';
+
 :root {
 	--background-primary: #1b1302;
 	--background-secondary: #1b1302;
@@ -17,18 +19,22 @@
 	src:local("Tw Cen MT Condensed Extra Bold");
 }
 
+// these are horrifying links, so i have chosen to make them defines
+// fyi: because these files are injected, we cannot use local references
+$UnfoundGooball: 'https://cdn.discordapp.com/attachments/590280000977240105/855256471080009748/Search.png';
+
+$GenericGooball_1: 'https://cdn.discordapp.com/attachments/590280000977240105/854854746505216020/Untitled.png';
+$GenericGooball_2: 'https://cdn.discordapp.com/attachments/590280000977240105/855254472224538634/generic2.png';
+
+$WaterGooball: 'https://cdn.discordapp.com/attachments/590280000977240105/855234699156914216/Water.png';
+$DigitalGooball: 'https://cdn.discordapp.com/attachments/622200209015046220/855252003750674472/Digital.png';
+
 /*
 @font-face {
 	font-family: Earth;
 	font-size-adjust: 20px;
 	src:local("Earth's Mightiest Bold");
 }*/
-
-@mixin username_test($name){
-	@if $name == "hamvar" {
-		color:red !important;
-	}
-}
 
 * { 
 	font-family: Condense !important;
@@ -46,13 +52,7 @@
 
 .username-1A8OIy{
 	/*font-family: Earth !important;*/
-	@include username_test("hamvar");
 	-webkit-text-stroke: 0.1px rgb(145, 133, 133);
-}
-
-.username-1A8OIy::after{
-	/*font-family: Earth !important;*/
-	content: " - " + "hi";
 }
 
 .timestamp-3ZCmNB{
@@ -86,18 +86,75 @@
 	border-color: #afafaf;
 }
 
+.peopleColumn-29fq28{
+	background-color: #1b1302;
+}
+
+// fallback avatar, all pfps should be this if they don't match with the below catchers
 .avatar-1BDn8e{
 	display: block;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	/*background: url(/themes/InformationSuperhighway/Gooballs/Water.png) no-repeat; */
-	background: url('./Gooballs/Generic.png'), no-repeat;
+	background: url($UnfoundGooball), no-repeat;
+	width: 40px;
+	height: 40px;
+	padding-left: 40px;
+	border-radius: 0%;
+}
+
+//some people have this? weird! lets give them unfound for now
+[src*="https://cdn.discordapp.com/avatars/3"][src$="?size=128"]{
+	display: block;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background: url($UnfoundGooball), no-repeat; /* returns a URL based on what the color of the username is */
 	width: 40px; /* Width of new image */
 	height: 40px; /* Height of new image */
 	padding-left: 40px; /* Equal to width of new image */
 	border-radius: 0%;
 }
 
-.peopleColumn-29fq28{
-	background-color: #1b1302;
+[src*="https://cdn.discordapp.com/avatars/1"][src$="?size=128"]{
+	display: block;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background: url($GenericGooball_1), no-repeat; /* returns a URL based on what the color of the username is */
+	width: 40px; /* Width of new image */
+	height: 40px; /* Height of new image */
+	padding-left: 40px; /* Equal to width of new image */
+	border-radius: 0%;
+}
+
+[src*="https://cdn.discordapp.com/avatars/2"][src$="?size=128"]{
+	display: block;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background: url($GenericGooball_2), no-repeat; /* returns a URL based on what the color of the username is */
+	width: 40px; /* Width of new image */
+	height: 40px; /* Height of new image */
+	padding-left: 40px; /* Equal to width of new image */
+	border-radius: 0%;
+}
+
+//
+[src*="https://cdn.discordapp.com/avatars/8"][src$="?size=128"]{
+	display: block;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background: url($WaterGooball), no-repeat; /* returns a URL based on what the color of the username is */
+	width: 40px; /* Width of new image */
+	height: 40px; /* Height of new image */
+	padding-left: 40px; /* Equal to width of new image */
+	border-radius: 0%;
+}
+
+[src*="https://cdn.discordapp.com/avatars/9"][src$="?size=128"]{
+	display: block;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background: url($DigitalGooball), no-repeat; /* returns a URL based on what the color of the username is */
+	width: 40px; /* Width of new image */
+	height: 40px; /* Height of new image */
+	padding-left: 40px; /* Equal to width of new image */
+	border-radius: 0%;
 }
