@@ -29,8 +29,8 @@
 
 /* url("https://cdn.discordapp.com/attachments/699846518542172190/854601391271575552/Poster_Yellow.png") */
 .scroller-2LSbBU {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.8))), url("https://cdn.discordapp.com/attachments/699846518542172190/854601391271575552/Poster_Yellow.png");
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("https://cdn.discordapp.com/attachments/699846518542172190/854601391271575552/Poster_Yellow.png");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.8))), url("http://tomorrowcorporation.com/blog/wp-content/uploads/2018/03/Poster_Cyan.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("http://tomorrowcorporation.com/blog/wp-content/uploads/2018/03/Poster_Cyan.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
