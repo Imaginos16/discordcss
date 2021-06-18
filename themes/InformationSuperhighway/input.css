@@ -1,8 +1,7 @@
-@use './avatar_data.scss';
 :root {
-  --background-primary: #1b1302;
-  --background-secondary: #1b1302;
-  --background-tertiary: #362f14;
+  --background-primary: $main;
+  --background-secondary: $main;
+  --background-tertiary: $main;
   --background-floating: #362f14;
   --text-muted:#494226;
   --interactive-muted:#665c36;
@@ -29,8 +28,8 @@
 
 /* url("https://cdn.discordapp.com/attachments/699846518542172190/854601391271575552/Poster_Yellow.png") */
 .scroller-2LSbBU {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.8))), url("http://tomorrowcorporation.com/blog/wp-content/uploads/2018/03/Poster_Cyan.jpg");
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("http://tomorrowcorporation.com/blog/wp-content/uploads/2018/03/Poster_Cyan.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.7))), url("https://raw.githubusercontent.com/tralezab/discordcss/master/themes/InformationSuperhighway/Poster_Cyan.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url("https://raw.githubusercontent.com/tralezab/discordcss/master/themes/InformationSuperhighway/Poster_Cyan.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -51,7 +50,7 @@
 }
 
 .form-2fGMdU {
-  background-image: conic-gradient(#0D0904 30%, #1C150A 70%);
+  background-image: #070707;
 }
 
 .timestamp-3ZCmNB {
