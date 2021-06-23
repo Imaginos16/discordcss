@@ -17,7 +17,7 @@ theme_list = [
     ["Default"],
     ["Information Superhighway", "themes/InformationSuperhighway/discord.css"],
     ["Syndicate", "themes/Syndicate/discord.css"],
-    ["Toontown", "themes/ToonTown/discord.css"],
+    ["WIP theme", "themes/ToonTown/discord.css"],
 ]
 
 #==================================================================#
