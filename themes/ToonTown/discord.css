@@ -1,24 +1,24 @@
-
-* { 
-	font-family: "Minnie" !important;
+* {
+  font-family: "Minnie" !important;
 }
 
 .scroller-2LSbBU {
-	background-image: url("https://cdn.discordapp.com/attachments/590280000977240105/795963507816136704/unknown.png");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.7))), url("https://cdn.discordapp.com/attachments/590280000977240105/795963507816136704/unknown.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url("https://cdn.discordapp.com/attachments/590280000977240105/795963507816136704/unknown.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
-.username-1A8OIy{
-	font-family: "Minnie" !important;
+.username-1A8OIy {
+  font-family: "Minnie" !important;
 }
 
-.contents-2mQqc9{
-	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+.contents-2mQqc9 {
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
-/*
-text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-
-*/
+.form-2fGMdU::before {
+  opacity: 0;
+}
+/*# sourceMappingURL=discord.css.map */
