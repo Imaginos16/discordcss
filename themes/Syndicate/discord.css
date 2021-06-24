@@ -1,4 +1,3 @@
-
 :root {
   --background-primary: #300303;
   --background-secondary: #300303;
@@ -12,100 +11,103 @@
   --background-modifier-accent:#550202;
 }
 
-* { 
-	font-family: "Verdana" !important;
-	/*font-family: "Minnie" !important;*/
+* {
+  font-family: "Verdana" !important;
+  /*font-family: "Minnie" !important;*/
 }
 
-.container-1giJp5{
-	background-color:#0A0A0A;
-}	
-
-/*
-.username-1A8OIy{
-	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
-}
-*/
-
-.avatar-1BDn8e{
-	opacity: 1;
-	border-radius: 20%;
-	background-color:#0A0A0A;
-	padding:1px;
-	border-width: 2px;
-	border-style: solid;
-	border-color: #87ce87;
+.container-1giJp5 {
+  background-color: #0A0A0A;
 }
 
 /*
-url("https://cdn.discordapp.com/attachments/590280000977240105/764775734907764756/static.gif")
-url(https://cdn.discordapp.com/attachments/590280000977240105/764771249405558784/nothingimage.png)
-*/
-
-.mentioned-xhSam7{color:#550202;
+  .username-1A8OIy{
+      text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  }
+  */
+.avatar-1BDn8e {
+  opacity: 1;
+  border-radius: 20%;
+  background-color: #0A0A0A;
+  padding: 1px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #87ce87;
 }
 
-.scroller-2TZvBN{
-	background-color:#550202;
+/*
+  url("https://cdn.discordapp.com/attachments/590280000977240105/764775734907764756/static.gif")
+  url(https://cdn.discordapp.com/attachments/590280000977240105/764771249405558784/nothingimage.png)
+  */
+.mentioned-xhSam7 {
+  color: #550202;
+}
+
+.scroller-2TZvBN {
+  background-color: #550202;
 }
 
 .scroller-2LSbBU {
-	/*background-color:#550202;*/
-	background-image: url("https://raw.githubusercontent.com/tgstation/tgstation/master/tgui/packages/tgui/assets/bg-syndicate.svg"), linear-gradient(rgba(85,2,2,1), #300303);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 80%, 100%;
+  /*background-color:#550202;*/
+  background-image: url("https://raw.githubusercontent.com/tgstation/tgstation/master/tgui/packages/tgui/assets/bg-syndicate.svg"), -webkit-gradient(linear, left top, left bottom, from(#550202), to(#300303));
+  background-image: url("https://raw.githubusercontent.com/tgstation/tgstation/master/tgui/packages/tgui/assets/bg-syndicate.svg"), linear-gradient(#550202, #300303);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80%, 100%;
 }
 
-
 .form-2fGMdU {
-	background-color:#300303 !important;
+  background-color: #300303 !important;
 }
 
 .messagesWrapper-1sRNjr {
-	background-color:#550202;
+  background-color: #550202;
 }
 
 .scrollableContainer-2NUZem {
-	background-color:#0A0A0A;
-	border-width: 2px;
-	border-style: solid;
-	border-color: #87ce87;
+  background-color: #0A0A0A;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #87ce87;
 }
 
 /*
-.markup-2BOw-j:after{
-	content:attr(aria-label);
-}
-*/
-
+  .markup-2BOw-j:after{
+      content:attr(aria-label);
+  }
+  */
 .autocompleteInner-zh20B_ {
-	background-color:#0A0A0A;
-	border-width: 3px;
-	border-style: solid;
-	border-color: #87ce87;
+  background-color: #0A0A0A;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #87ce87;
 }
 
 .scrollbarGhostHairline-1mSOM1 {
-	background-color:#397439;
+  background-color: #397439;
 }
 
-.wrapperAudio-1jDe0Q{
-	background-color:#0A0A0A;
+.wrapperAudio-1jDe0Q {
+  background-color: #0A0A0A;
 }
 
-.container-3baos1{
-	background-color:#550202;
+.container-3baos1 {
+  background-color: #550202;
 }
 
-.theme-dark .form-2fGMdU:before{
-	background-image:linear-gradient(#300303, #300303);
+.theme-dark .form-2fGMdU:before {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#300303), to(#300303));
+  background-image: linear-gradient(#300303, #300303);
 }
 
+.peopleColumn-29fq28 {
+  background-color: #0A0A0A;
+}
 
 /* messages
-.message-2qnXI6{
-	border-width: 1px;
-	border-style: solid;
-	border-color: #87ce87;	
-*/
+  .message-2qnXI6{
+      border-width: 1px;
+      border-style: solid;
+      border-color: #87ce87;	
+  */
+/*# sourceMappingURL=discord.css.map */

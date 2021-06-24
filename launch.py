@@ -64,6 +64,9 @@ def hook():
 # reverts hook, removes the discord.css file from main part of repo
 #==================================================================#
 def unhook_and_cleanup():
+    already_default = not os.path.exists("discord.css")
+    if(already_default):
+        return
     try:
         subprocess.run(["beautifuldiscord", "--revert"])
     except Exception as error:
