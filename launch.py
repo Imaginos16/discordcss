@@ -28,6 +28,7 @@ theme_list = [
     ["Default"],
     ["Exit"],
     ["Information Superhighway", "themes/InformationSuperhighway/discord.css"],
+    ["Joan", "themes/Joan/discord.css"],
     ["Syndicate", "themes/Syndicate/discord.css"],
     ["ToonTown", "themes/ToonTown/discord.css"],
 ]
@@ -67,8 +68,12 @@ def hook():
     skip_hook = os.path.exists("discord.css")
     if(skip_hook and filecmp.cmp(vars.chosen_theme[THEME_PATH], "discord.css")):
         return
-    print(f"{color.green}Selected {vars.chosen_theme[THEME_NAME]}!{color.end}{color.yellow}Loading...{color.end}")
-    copyfile(vars.chosen_theme[THEME_PATH], os.path.abspath("discord.css"))
+    print(f"{color.green}Selected {vars.chosen_theme[THEME_NAME]}! {color.end}{color.yellow}Loading...{color.end}")
+    try:
+        copyfile(vars.chosen_theme[THEME_PATH], os.path.abspath("discord.css"))
+    except FileNotFoundError as file_error:
+        print(f"{color.red}File not found! {file_error}{color.end}")
+        return
     if(skip_hook):
         return
     #call

@@ -1,21 +1,43 @@
+@font-face {
+  font-family: Impress;
+  src: local("Impress BT");
+}
+
+@font-face {
+  font-family: Silly;
+  src: local("Hasty Pudding");
+}
+
 * {
-  font-family: "Minnie" !important;
+  font-family: "Impress" !important;
 }
 
 .scroller-2LSbBU {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.7))), url("https://cdn.discordapp.com/attachments/590280000977240105/795963507816136704/unknown.png");
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url("https://cdn.discordapp.com/attachments/590280000977240105/795963507816136704/unknown.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("https://cdn.discordapp.com/attachments/590280000977240105/795963507816136704/unknown.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .username-1A8OIy {
+  font-family: "Silly" !important;
+  background-color: #cccccc23;
+  border-radius: 4px;
+}
+
+/*
+.username-1A8OIy[content="oranges"]{
+	font-family: "Minnie" !important;
+    background-color: #cccccc23;
+    border-radius:4px;
+}
+*/
+.channelName-2YrOjO {
   font-family: "Minnie" !important;
 }
 
-.contents-2mQqc9 {
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+.form-2fGMdU {
+  background-image: #0E3C1F;
 }
 
 .form-2fGMdU::before {
