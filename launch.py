@@ -30,6 +30,7 @@ theme_list = [
     ["Information Superhighway", "themes/InformationSuperhighway/discord.css"],
     ["Joan", "themes/Joan/discord.css"],
     ["Syndicate", "themes/Syndicate/discord.css"],
+    ["Nanotrasen", "themes/Nanotrasen/discord.css"],
     ["ToonTown", "themes/ToonTown/discord.css"],
 ]
 
