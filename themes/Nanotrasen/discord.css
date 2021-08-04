@@ -1,0 +1,113 @@
+:root {
+  --background-primary: #1D3249;
+  --background-secondary: #1D3249;
+  --background-tertiary: #0A0A0A;
+  --background-floating: #0A0A0A;
+  --text-muted:#727272;
+  --interactive-muted:#464646;
+  --scrollbar-auto-thumb:#384E68;
+  --scrollbar-auto-track:#1D3249;
+  --scrollbar-thin-thumb:#384E68;
+  --background-modifier-accent:#384E68;
+}
+
+* {
+  font-family: "Verdana" !important;
+  /*font-family: "Minnie" !important;*/
+}
+
+.container-1giJp5 {
+  background-color: #0A0A0A;
+}
+
+/*
+  .username-1A8OIy{
+      text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  }
+  */
+.avatar-1BDn8e {
+  opacity: 1;
+  border-radius: 20%;
+  background-color: #0A0A0A;
+  padding: 1px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #dadada;
+}
+
+/*
+  url("https://cdn.discordapp.com/attachments/590280000977240105/764775734907764756/static.gif")
+  url(https://cdn.discordapp.com/attachments/590280000977240105/764771249405558784/nothingimage.png)
+  */
+.mentioned-xhSam7 {
+  color: #384E68;
+}
+
+.scroller-2TZvBN {
+  background-color: #384E68;
+}
+
+.scroller-2LSbBU {
+  /*background-color:#384E68;*/
+  background-image: url("https://raw.githubusercontent.com/tgstation/tgstation/master/tgui/packages/tgui/assets/bg-nanotrasen.svg"), -webkit-gradient(linear, left top, left bottom, from(#384E68), to(#1D3249));
+  background-image: url("https://raw.githubusercontent.com/tgstation/tgstation/master/tgui/packages/tgui/assets/bg-nanotrasen.svg"), linear-gradient(#384E68, #1D3249);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80%, 100%;
+}
+
+.form-2fGMdU {
+  background-color: #1D3249 !important;
+}
+
+.messagesWrapper-1sRNjr {
+  background-color: #384E68;
+}
+
+.scrollableContainer-2NUZem {
+  background-color: #0A0A0A;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #cacaca;
+}
+
+/*
+  .markup-2BOw-j:after{
+      content:attr(aria-label);
+  }
+  */
+.autocompleteInner-zh20B_ {
+  background-color: #0A0A0A;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #c5c5c5;
+}
+
+.scrollbarGhostHairline-1mSOM1 {
+  background-color: #397439;
+}
+
+.wrapperAudio-1jDe0Q {
+  background-color: #0A0A0A;
+}
+
+.container-3baos1 {
+  background-color: #384E68;
+}
+
+.theme-dark .form-2fGMdU:before {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#300303), to(#300303));
+  background-image: linear-gradient(#300303, #300303);
+}
+
+.peopleColumn-29fq28 {
+  background-color: #0A0A0A;
+}
+
+/* messages
+  .message-2qnXI6{
+      border-width: 1px;
+      border-style: solid;
+      border-color: #87CE87;	
+  */
+/*# sourceMappingURL=discord.css.map */

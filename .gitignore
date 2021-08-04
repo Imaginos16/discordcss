@@ -1,5 +1,5 @@
 #ignore the interchangeable discord.css file at the topmost level of the repo
-discord.css
+/discord.css
 #ignore scss files, which are being used to write better css but are not useful for users
 *.scss
 #ignore map files, same reason as above
